@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #1E1E1E;
+}
+
+.leftBar {
+    background-color: #262450;
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+#title
+{
+    text-align: center;
+    font-size: 150%;
+    color: #E3B53C;
+}
+
+.sections
+{
+    color: #FFFFFF;
+}
+
+.imageText {
+    height: 70px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.imageText:hover
+{
+    background-color: #141326;
+}
+
+.imageText svg {
+  margin-left: 20px;
+    margin-right: 20px; /* Adjust this value to create space between the icon and text */
+}
